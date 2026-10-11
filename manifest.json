@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "nosignal.gliff-manager",
+  "name": "Gliff-Manager",
+  "version": "0.1.0",
+  "author": "Gavin Nugent",
+  "license": "MIT",
+  "description": "Manage gliff remote desktop sessions from the bar: check each machine over ssh, pick headless or mirror per machine, fix common setup problems, and connect. Needs Omarchy 4.5 or edge, with gliff installed (not installed by default yet). Summon with: omarchy-shell nosignal.gliff-manager toggle",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Gliff-Manager",
+    "description": "Gliff remote desktop machines, checks and connections",
+    "category": "Network",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}

@@ -1,0 +1,5 @@
+NOTES.local.md
+dev/
+*.local.*
+__pycache__/
+tests/
